@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap')
+  
+.caixa {
+    background: #f3f3f3;
+    display: flex;
+    height: 350px;
+    width: 600px;
+    justify-content: space-around;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.circle {
+    position: relative;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 0 10px;
+}
+
+.number {
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    display: inline;
+}
+
+.circle1 {
+    background: #7dc576;
+}
+
+.circle1::after {
+    content: "....";
+    color: #7dc576;
+    font-size: 50px;
+    position: relative;
+    left: 90px;
+    bottom: 35px;
+}
+
+.icon1 {
+    position: relative;
+    left: 28px;
+    bottom: -24px;
+}
+
+.circle2 {
+    background: #7dc576;
+}
+
+.circle2::before {
+    content: "..";
+    color: #7dc576;
+    font-size: 50px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+}
+
+.icon2 {
+    position: relative;
+    left: 30px;
+    bottom: 49px;
+}
+
+.circle3 {
+    background: #8dcbe5;
+    color: #40a5ce;
+    border-width: 10px;
+    border-style: double;
+    border-color: #f3f3f3;
+}
+
+.circle3::after {
+    content: "..";
+    color: #c6e3eb;
+    font-size: 50px;
+    position: relative;
+    right: 65px;
+    bottom: 20px;
+}
+
+.number1 {
+    left: 20px;
+    bottom: 13px;
+}
+
+.circle4 {
+    background: #8dcbe5;
+    color: #40a5ce;
+}
+
+.circle4::before {
+    content: "....";
+    color: #c6e3eb;
+    font-size: 50px;
+    position: relative;
+    right: 60px;
+    bottom: 10px;
+}
+
+.number2 {
+    right: 25px;
+    bottom: 4px;
+}
